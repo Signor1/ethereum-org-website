@@ -1430,6 +1430,17 @@ const chains = [
     chain: "ETH",
   },
   {
+    name: "Plume Mainnet",
+    infoURL: "https://www.plumenetwork.xyz/",
+    chainId: 98865,
+    nativeCurrency: {
+      name: "Plume Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "ETH",
+  },
+  {
     name: "re.al",
     infoURL: "https://re.al",
     chainId: 111188,
