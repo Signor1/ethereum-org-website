@@ -451,6 +451,17 @@ const chains = [
     chain: "ETH",
   },
   {
+    name: "AppChain",
+    infoURL: "https://appchain.xyz",
+    chainId: 466,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "AppChain",
+  },
+  {
     name: "World Chain",
     infoURL: "https://world.org/world-chain",
     chainId: 480,
@@ -1254,6 +1265,17 @@ const chains = [
     chain: "Liveplex OracleEVM Network",
   },
   {
+    name: "Reddio Devnet",
+    infoURL: "https://www.reddio.com",
+    chainId: 50341,
+    nativeCurrency: {
+      name: "Red",
+      symbol: "RED",
+      decimals: 18,
+    },
+    chain: "ETH",
+  },
+  {
     name: "Titan",
     infoURL: "https://tokamak.network",
     chainId: 55004,
@@ -1430,6 +1452,17 @@ const chains = [
     chain: "ETH",
   },
   {
+    name: "Plume Mainnet",
+    infoURL: "https://www.plumenetwork.xyz/",
+    chainId: 98865,
+    nativeCurrency: {
+      name: "Plume Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "ETH",
+  },
+  {
     name: "re.al",
     infoURL: "https://re.al",
     chainId: 111188,
@@ -1591,6 +1624,17 @@ const chains = [
     nativeCurrency: {
       name: "Ether",
       symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "ETH",
+  },
+  {
+    name: "Owshen Mainnet",
+    infoURL: "https://owshen.io",
+    chainId: 918273,
+    nativeCurrency: {
+      name: "DIVE",
+      symbol: "DIVE",
       decimals: 18,
     },
     chain: "ETH",
