@@ -363,6 +363,17 @@ const chains = [
     chain: "HPB",
   },
   {
+    name: "XR One",
+    infoURL: "https://xr-one.gitbook.io",
+    chainId: 273,
+    nativeCurrency: {
+      name: "XR",
+      symbol: "XR",
+      decimals: 18,
+    },
+    chain: "ETH",
+  },
+  {
     name: "Boba Network",
     infoURL: "https://boba.network",
     chainId: 288,
@@ -396,7 +407,7 @@ const chains = [
     chain: "ETH",
   },
   {
-    name: "GRVT Mainnet",
+    name: "GRVT Exchange",
     infoURL: "https://grvt.io/",
     chainId: 325,
     nativeCurrency: {
@@ -451,6 +462,28 @@ const chains = [
     chain: "ETH",
   },
   {
+    name: "AppChain",
+    infoURL: "https://appchain.xyz",
+    chainId: 466,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "AppChain",
+  },
+  {
+    name: "Form Network",
+    infoURL: "https://info.form.network",
+    chainId: 478,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "form",
+  },
+  {
     name: "World Chain",
     infoURL: "https://world.org/world-chain",
     chainId: 480,
@@ -460,6 +493,17 @@ const chains = [
       decimals: 18,
     },
     chain: "ETH",
+  },
+  {
+    name: "River",
+    infoURL: "https://towns-mainnet.hub.caldera.xyz",
+    chainId: 550,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "river",
   },
   {
     name: "Redstone",
@@ -704,7 +748,7 @@ const chains = [
     chain: "ETH",
   },
   {
-    name: "Swell Network",
+    name: "Swellchain",
     infoURL: "https://app.swellnetwork.io/layer2/swell-l2",
     chainId: 1923,
     nativeCurrency: {
@@ -712,7 +756,7 @@ const chains = [
       symbol: "ETH",
       decimals: 18,
     },
-    chain: "Swell L2",
+    chain: "ETH",
   },
   {
     name: "Minato",
@@ -1089,6 +1133,17 @@ const chains = [
     chain: "ETHW",
   },
   {
+    name: "Fluent Developer Preview",
+    infoURL: "https://fluent.xyz",
+    chainId: 20993,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "Fluent",
+  },
+  {
     name: "Lestnet",
     infoURL: "https://lestnet.org",
     chainId: 21363,
@@ -1254,6 +1309,17 @@ const chains = [
     chain: "Liveplex OracleEVM Network",
   },
   {
+    name: "Reddio Devnet",
+    infoURL: "https://www.reddio.com",
+    chainId: 50341,
+    nativeCurrency: {
+      name: "Red",
+      symbol: "RED",
+      decimals: 18,
+    },
+    chain: "ETH",
+  },
+  {
     name: "Titan",
     infoURL: "https://tokamak.network",
     chainId: 55004,
@@ -1285,6 +1351,17 @@ const chains = [
       decimals: 18,
     },
     chain: "Lambda Chain",
+  },
+  {
+    name: "Ink",
+    infoURL: "https://inkonchain.com",
+    chainId: 57073,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "ETH",
   },
   {
     name: "Linea",
@@ -1430,6 +1507,17 @@ const chains = [
     chain: "ETH",
   },
   {
+    name: "Plume Mainnet",
+    infoURL: "https://www.plumenetwork.xyz/",
+    chainId: 98865,
+    nativeCurrency: {
+      name: "Plume Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "ETH",
+  },
+  {
     name: "re.al",
     infoURL: "https://re.al",
     chainId: 111188,
@@ -1496,8 +1584,8 @@ const chains = [
     chain: "ETH",
   },
   {
-    name: "HydraDX",
-    infoURL: "https://hydradx.io",
+    name: "Hydration",
+    infoURL: "https://hydration.net/",
     chainId: 222222,
     nativeCurrency: {
       name: "Wrapped ETH",
@@ -1585,12 +1673,34 @@ const chains = [
     chain: "DUSTBOY",
   },
   {
+    name: "Zether Mainnet",
+    infoURL: "https://zether.org",
+    chainId: 715131,
+    nativeCurrency: {
+      name: "Zether",
+      symbol: "ZTH",
+      decimals: 18,
+    },
+    chain: "Zether",
+  },
+  {
     name: "zkLink Nova Mainnet",
     infoURL: "https://zklink.io",
     chainId: 810180,
     nativeCurrency: {
       name: "Ether",
       symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "ETH",
+  },
+  {
+    name: "Owshen Mainnet",
+    infoURL: "https://owshen.io",
+    chainId: 918273,
+    nativeCurrency: {
+      name: "DIVE",
+      symbol: "DIVE",
       decimals: 18,
     },
     chain: "ETH",
